@@ -1,15 +1,10 @@
 package controllers
 
 import (
-	// "fmt"
 	"go-workshop/database"
 	m "go-workshop/models"
-	// "log"
-	// "regexp"
-	// "strconv"
 	"strings"
 
-	// "github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -143,3 +138,5 @@ func GetUsersGen(c *fiber.Ctx) error {
 	}
 	return c.Status(200).JSON(r)
 }
+
+	
